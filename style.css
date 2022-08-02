@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;600&display=swap');
+
+*{
+
+}
+.root{
+
+    --primary-color:#FBCFE8;
+    --pcolor3:#F9A8D4;
+    --text-color:064E3B;
+}
+
+body{
+    background-color:#6EE7B7;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.container{
+    margin: 50px 250px;
+    padding: 40px;
+    width: 800px;
+    background-color: #F9A8D4;
+    border: 4px solid #064E3B;
+    border-radius: 2rem;
+}
+
+.container .heading{
+    text-align: center;
+    color:#064E3B ;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.input-birthdate{
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+.birthdate-lable{
+    padding: 20px;
+    font-size: 30px;
+    color: #064E3B;
+    text-align: center;
+}
+#birthdate{
+    padding: 10px;
+    margin: 2px 65px;
+    font-size: 20px;
+    border-color: #064E3B;
+    border-radius: 2rem;
+    color: #064E3B;
+}
+
+.input-lucky-number{
+    margin-left:200px;
+}
+
+.lucky-number-lable{
+    padding: 20px;
+    font-size: 30px;
+    color: #064E3B;
+}
+
+#lucky-number{
+    padding: 10px;
+    margin: 2px;
+    font-size: 15px;
+    border-color: #064E3B;
+    border-radius: 2rem;
+    color: #064E3B;
+}
+
+.button{
+    margin-left: 300px;
+}
+
+#check{
+    font-size: 20px;
+    margin: 50px;
+    padding: 10px;
+    background-color: #FBCFE8;
+    color: #064E3B;
+    border: 3px solid ;
+    border-radius: 2rem;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-weight: bolder;
+}
+
+#output{
+    text-align: center;
+    font-size: 50px;
+    color: #064E3B;
+}
