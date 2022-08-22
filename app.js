@@ -25,13 +25,22 @@ function luckyBirthdateOrNot(sum, luckyNumber){
 function checkBirthdateIsLucky(){
     const dob= birthdate.value;
     const number= luckyNumber.value;
-    if(!dob || !luckyNumber)
+    if(dob && number)
     {
-        outerText.innerText="please enter a valid input";
-    }else{
+    //     if(!dob || !luckyNumber)
+    // {
+    //     outerText.innerText="please enter a valid input";
+    // }
+    
         const sum= calculateSum(dob);
     luckyBirthdateOrNot(sum, luckyNumber.value);
+    
     }
+    else{
+        outerText.style.color="red";
+        outerText.innerText="Please enter a valid input!";
+    }
+    
     
 }
 
